@@ -22,7 +22,7 @@ public class Tes {
 		cap.setCapability("app", "C:\\Users\\mohammad.Anzaf\\Downloads\\app-release.apk");
 		/*cap.setCapability("", "");
 		cap.setCapability("", "");*/
-		
+		//this 
 		AndroidDriver<WebElement> driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 	
 		WebDriverWait wait= new WebDriverWait(driver,30);
